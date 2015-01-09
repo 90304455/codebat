@@ -1,6 +1,6 @@
 import java.util.Scanner; //scanner class
 
-public class Nme {
+public class Codebat {
 	///note this will make it runnable from outside of codebat.
 	public static void main(String[] args){
 	Scanner sc=new Scanner(System.in);
