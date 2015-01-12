@@ -1,0 +1,22 @@
+
+public class Name {
+
+	public static void main(String[] args) {
+		stringE("hellell");
+
+	}
+	public static  boolean stringE(String str) {
+		int y=0;
+		for(int i = 0;i<str.length(); i=i+1){
+		if(str.charAt(i)==('e')){
+				      y++;
+				      }
+		}
+				   if(y<=3 && y>=1){
+				   return true;
+				   }
+				   else{
+				   return false;
+				   }
+				  }
+}
