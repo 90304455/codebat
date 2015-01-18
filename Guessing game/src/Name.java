@@ -24,15 +24,15 @@ class Name
         	return;
         	}
         	else{
-        		if(b>c && decider<0.5){
+        		if(b1>c && decider<0.5){
         		     System.out.println("Lower number please");
-        		if(b>c && decider<0.5){
+        		if(b1>c && decider<0.5){
         		     System.out.println("Higher number please")	;
         		}
-        		if(b<c && decider>0.5){
+        		if(b1<c && decider>0.5){
         		System.out.println("Higher number please");	
         		}
-        		if(b<c && decider>0.5){
+        		if(b1<c && decider>0.5){
             	System.out.println("Lower number please");
         							}
                 				}

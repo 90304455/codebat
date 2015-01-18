@@ -1,0 +1,54 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+@SuppressWarnings("unused")
+class Name
+{
+	public static void main (String[] args)
+	{
+		System.out.println("Lets play a game");
+		System.out.println("System will output greater than or less than number");
+		Scanner sc = new Scanner(System.in);
+	    int Input=sc.nextInt();
+		System.out.println("Enter the number of numbers you want, for enter a 100 for a guessing number game up to 1 to 100");
+		Scanner sc2 = new Scanner(System.in);
+        int D=sc2.nextInt();
+        System.out.println("Enter challenge level, the challenge level is from 0.5(hardest) to 1 it is a continous scale as well");
+		Scanner sc3 = new Scanner(System.in);
+		double challenge=sc3.nextDouble();
+        boolean a=true;
+        int c=(int) Math.floor(Math.random()*(D+1));
+        int i=0;
+        while(a && i<35){
+            double decider2=Math.random();
+
+        	System.out.println("Enter a new number");
+        	Scanner sc4 = new Scanner(System.in);
+            int b1=sc4.nextInt();
+        	i=i+1;
+        	if(c==b1){
+        	System.out.println("you win");
+        	return;
+        	}
+        	else{
+        		if(b1>c && decider2<challenge){
+        		     System.out.println("Lower number please");
+        		}
+        		if(b1>c && decider2>challenge){
+        		     System.out.println("Higher number please")	;
+        		}
+        		if(b1<c && decider2>challenge){
+        		System.out.println("Higher number please");	
+        		}
+        		if(b1<c && decider2<challenge){
+            	System.out.println("Lower number please");
+        							}
+                				}
+                }
+        		}
+        		}
+        		
+ 
+
