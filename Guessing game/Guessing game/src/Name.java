@@ -17,7 +17,7 @@ class Name
         int D=sc2.nextInt();
         System.out.println("Enter challenge level, the challenge level is from 0.5(hardest) to 1 it is a continous scale as well");
 		Scanner sc3 = new Scanner(System.in);
-		double challenge=sc3.nextDouble();
+		double challenge=sc3.nextDouble(); //remember to ask user for number of tries. Also remember to find fromula given probablitlity and number to return the least number of guesses.
         boolean a=true;
         int c=(int) Math.floor(Math.random()*(D+1));
         int i=0;
